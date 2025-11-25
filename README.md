@@ -30,7 +30,9 @@ The data is then cleaned and visualized interactively using **Plotly**.
 
 <img width="733" height="736" alt="image" src="https://github.com/user-attachments/assets/b64e0beb-da26-4cf3-9b99-b842f2077f23" />
 <img width="733" height="389" alt="image" src="https://github.com/user-attachments/assets/f82c0022-653b-4b91-bbc4-52a2c87b210e" />
----
+
+
+----
 
 ## Project Structure
 ```
