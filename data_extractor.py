@@ -6,7 +6,8 @@ from langchain_core.exceptions import OutputParserException
 from dotenv import load_dotenv
 load_dotenv()
 
-llm = ChatGroq(model_name="llama-3.3-70b-versatile")
+MODEL_NAME = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
+llm = ChatGroq(model_name=MODEL_NAME, temperature=0)
 
 
 # Mock function to extract financial data (replace with actual function)
