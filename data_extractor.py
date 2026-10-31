@@ -5,7 +5,7 @@ from langchain_core.exceptions import OutputParserException
 
 from dotenv import load_dotenv
 load_dotenv()
-
+groq_api_key = os.environ.get("GROQ_API_KEY")
 llm = ChatGroq(model_name="llama-3.3-70b-versatile")
 
 
